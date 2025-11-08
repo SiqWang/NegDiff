@@ -1,0 +1,44 @@
+1. 
+folder1 = '/workspace/NegDiff/results/SD_vanilla_v1-4_unlearndiff/all'
+folder2 = '/workspace/NegDiff/results/SD_emp-neg_v1-4_unlearndiff/all'
+
+Final FID Score: 187.3065
+Average CLIP Score: 0.6966
+
+
+2. 
+folder1 = '/workspace/NegDiff/results/SD_ortho-neg_v1-4_unlearndiff_5/all'
+folder2 = '/workspace/NegDiff/results/SD_emp-neg_v1-4_unlearndiff/all'
+Final FID Score: 32.5959
+Average CLIP Score: 0.9790
+
+
+3.
+folder1 = '/workspace/NegDiff/results/SD_ortho-neg_v1-4_unlearndiff_6/all'
+folder2 = '/workspace/NegDiff/results/SD_emp-neg_v1-4_unlearndiff/all'
+
+Final FID Score: 111.1703
+Average CLIP Score: 0.8902
+
+
+CLIP scores between text prompts and images:
+
+"SD_vanilla_v1-4_unlearndiff"
+Average CLIP Score: 25.1468
+
+"SD_only-emp_v1-4_unlearndiff-2"
+Average CLIP Score: 31.3483
+
+"SD_ori-neg_v1-4_unlearndiff"
+Average CLIP Score: 30.6640
+
+"SD_emp-neg_v1-4_unlearndiff"
+Average CLIP Score: 30.5287
+
+"SD_ortho-neg_v1-4_unlearndiff_5"
+Average CLIP Score: 30.2708
+
+"SD_ortho-neg_v1-4_unlearndiff_6"
+Average CLIP Score: 30.8583
+
+

@@ -1,0 +1,6 @@
+accelerate
+diffusers
+onnxruntime==1.18.1
+pandas
+transformers
+torcheval
